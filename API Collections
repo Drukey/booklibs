@@ -1,0 +1,137 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "BOOKS LIBRARY",
+    "dateExported": "2023-02-22T14:08:37.811Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "9ac74c9e-c9eb-4904-b363-97ee069d5286",
+            "colId": "09563768-3500-419c-8f1c-b564e456aba2",
+            "containerId": "",
+            "name": "UPDATE USER",
+            "url": "localhost:8800/api/users/chekauthentication",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-02-22T14:03:52.978Z",
+            "modified": "2023-02-22T14:03:52.978Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"ronaldo\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9e24d782-7f22-439c-a864-074b2a7229ab",
+            "colId": "09563768-3500-419c-8f1c-b564e456aba2",
+            "containerId": "",
+            "name": "LOGIN",
+            "url": "http://localhost:8800/api/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-02-22T14:04:18.218Z",
+            "modified": "2023-02-22T14:04:18.218Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"ronaldo\",\n  \"password\":\"12345\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "81111044-d210-4bb8-91f2-9112b1cf0b9c",
+            "colId": "09563768-3500-419c-8f1c-b564e456aba2",
+            "containerId": "",
+            "name": "DELETE BOOK",
+            "url": "localhost:8800/api/hotels63de0cba75ef22edd8984ef5",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-02-22T14:04:30.222Z",
+            "modified": "2023-02-22T14:04:30.222Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "89af748c-1118-478d-856b-04f9bd11b4fd",
+            "colId": "09563768-3500-419c-8f1c-b564e456aba2",
+            "containerId": "",
+            "name": "REGISTER",
+            "url": "http://localhost:8800/api/auth/register",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-02-22T14:05:02.033Z",
+            "modified": "2023-02-22T14:05:02.033Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"john\",\n  \"email\":\"rodrigo@dru.com\",\n  \"password\":\"123\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e83df757-c93b-4bd8-ada7-bbfddab1ea45",
+            "colId": "09563768-3500-419c-8f1c-b564e456aba2",
+            "containerId": "",
+            "name": "UPDATE BOOK",
+            "url": "localhost:8800/api/hotels/63de0cba75ef22edd8984ef5",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2023-02-22T14:05:15.624Z",
+            "modified": "2023-02-22T14:05:15.624Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Hotel Qwerty\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "60f23440-bbbd-43ff-a7c1-9a1ee4a2a67c",
+            "colId": "09563768-3500-419c-8f1c-b564e456aba2",
+            "containerId": "",
+            "name": "REGISTER USER",
+            "url": "http://localhost:8800/api/auth/register",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-02-22T14:07:04.637Z",
+            "modified": "2023-02-22T14:07:04.637Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"john\",\n  \"email\":\"rodrigo@dru.com\",\n  \"password\":\"123\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e12f3dec-8e65-4bf2-9294-8fbc9fbd26b3",
+            "colId": "09563768-3500-419c-8f1c-b564e456aba2",
+            "containerId": "",
+            "name": "CREATE BOOK",
+            "url": "localhost:8800/api/hotels",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-02-22T14:08:21.802Z",
+            "modified": "2023-02-22T14:08:21.802Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Hotel Jamaica\",\n  \"type\":\"hotel\",\n  \"city\":\"Dar\",\n  \"address\":\"kingston\",\n  \"distance\":\"300\",\n  \"title\":\"Best in the City\",\n  \"desc\":\"hotel description\",\n  \"cheapestPrice\":\"100\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
